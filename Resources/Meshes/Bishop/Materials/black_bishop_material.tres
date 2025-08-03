@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://bxnee6cjdft2g"]
+
+[ext_resource type="Texture2D" uid="uid://dbm3ugyyok0mv" path="res://Resources/Meshes/Bishop/Textures/black_bishop_color.png" id="1_416iq"]
+[ext_resource type="Texture2D" uid="uid://xujug06145yy" path="res://Resources/Meshes/Bishop/Textures/bishop_AO.png" id="2_uusl0"]
+[ext_resource type="Texture2D" uid="uid://b2pnm3fsg2cp0" path="res://Resources/Meshes/Bishop/Textures/bishop_normal.png" id="3_hkqfr"]
+[ext_resource type="Texture2D" uid="uid://di3xyao5kcdpp" path="res://Resources/Meshes/Bishop/Textures/bishop_roughness.png" id="4_utgro"]
+
+[resource]
+albedo_texture = ExtResource("1_416iq")
+roughness_texture = ExtResource("4_utgro")
+normal_enabled = true
+normal_texture = ExtResource("3_hkqfr")
+ao_enabled = true
+ao_light_affect = 1.0
+ao_texture = ExtResource("2_uusl0")
+texture_filter = 0
+texture_repeat = false

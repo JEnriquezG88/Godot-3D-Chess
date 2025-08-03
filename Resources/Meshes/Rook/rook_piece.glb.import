@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://0n00vbj2i3c7"
-path="res://.godot/imported/chess_board.glb-9e8b0c2fc00e5b22e8a934d93df2c820.scn"
+uid="uid://bbqskemfht3o"
+path="res://.godot/imported/rook_piece.glb-bf196e67341280a3858d84de72aa3084.scn"
 
 [deps]
 
-source_file="res://Resources/Meshes/Board/chess_board.glb"
-dest_files=["res://.godot/imported/chess_board.glb-9e8b0c2fc00e5b22e8a934d93df2c820.scn"]
+source_file="res://Resources/Meshes/Rook/rook_piece.glb"
+dest_files=["res://.godot/imported/rook_piece.glb-bf196e67341280a3858d84de72aa3084.scn"]
 
 [params]
 
@@ -32,13 +32,6 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
-_subresources={
-"materials": {
-"chess_board": {
-"use_external/enabled": true,
-"use_external/path": "uid://qkbab6sq1ple"
-}
-}
-}
+_subresources={}
 gltf/naming_version=1
 gltf/embedded_image_handling=1

@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://0n00vbj2i3c7"
-path="res://.godot/imported/chess_board.glb-9e8b0c2fc00e5b22e8a934d93df2c820.scn"
+uid="uid://xd1rpyt65x26"
+path="res://.godot/imported/pawn_piece.glb-f9d9e808a1d687cf36ba0ab194cb345d.scn"
 
 [deps]
 
-source_file="res://Resources/Meshes/Board/chess_board.glb"
-dest_files=["res://.godot/imported/chess_board.glb-9e8b0c2fc00e5b22e8a934d93df2c820.scn"]
+source_file="res://Resources/Meshes/Pawn/pawn_piece.glb"
+dest_files=["res://.godot/imported/pawn_piece.glb-f9d9e808a1d687cf36ba0ab194cb345d.scn"]
 
 [params]
 
@@ -33,10 +33,14 @@ animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
 _subresources={
-"materials": {
-"chess_board": {
-"use_external/enabled": true,
-"use_external/path": "uid://qkbab6sq1ple"
+"meshes": {
+"pawn_piece_mesh": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": false,
+"save_to_file/path": ""
 }
 }
 }
