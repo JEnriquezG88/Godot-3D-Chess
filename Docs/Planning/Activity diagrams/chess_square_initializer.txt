@@ -1,0 +1,26 @@
+@startuml
+
+title Inicializar\nmanejador de casillas
+
+start
+
+:Se inicia la escena del juego;
+:El manejador de casillas comienza su inicialización;
+:Recorre una matriz 8x8;
+
+repeat :Recorrer filas (Letra A a H)
+  repeat :Recorrer columnas (1 a 8)
+  
+  :Crea una instancia de la clase matriz;
+  :Le asigna un ID a la casilla creada\n('A1', 'B2', 'D3'...);
+  :Le pasa a la casilla una referencia al manejador;
+  :Posiciona a la casilla;
+  :Añade una referencia de la casilla creada;
+
+  repeat while (¿Quedan columnas?) is (Sí) not (No)
+repeat while (¿Quedan filas?) is (Sí) not (No)
+
+:Llamar al controlador de instanciación de piezas;
+stop
+
+@enduml

@@ -1,0 +1,35 @@
+@startuml
+title Diagrama de secuencias\nManejador de casillas.
+
+start
+
+:Recibir click en casilla;
+
+if (¿La casilla tiene una pieza seleccionable?) then (Sí)
+
+	if (¿Ya había una casilla seleccionada?) then (Sí)
+		:Limpiar selección;
+	else (No)
+	endif
+
+	:Marcar casillas permitidas\n(movimiento y ataque);
+	:Esperar click en casilla válida;
+
+	if (¿El click fue en una casilla válida?) then (Sí)
+		:Llamar al controlador general\n(Pasar pieza y destino);
+				:El controlador general se encarga\ndel movimiento o muerte de las piezas;
+		stop
+	else (No)
+		:Limpiar selección;
+		end
+	endif
+
+else (No)
+	if (¿Ya había una casilla seleccionada?) then (Sí)
+	  :Limpiar selección;
+	else (No)
+	endif
+
+	end
+endif
+@enduml

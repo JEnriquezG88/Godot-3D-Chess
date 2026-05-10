@@ -1,0 +1,33 @@
+@startuml
+title Visualizador de\nposiciones de movimiento\ndisponibles
+
+start
+
+:Recibir pieza seleccionada como parámetro;
+:Obtener matriz de movimientos de la pieza;
+:Calcular posición actual de la pieza (fila, columna);
+
+repeat
+  :Recorrer la matriz de movimientos;
+  :Convertir coordenadas relativas a absolutas;
+  :Verificar si la celda está dentro del tablero;
+  :Verificar si la celda objetivo está ocupada;
+  split
+  :Casilla vacia;
+  :Casilla válida;
+  split again
+  :Casilla ocupada por pieza enemiga;
+  :Casilla válida;
+  :Cambiar color de casilla (Rojo);
+  split again
+  :Casilla ocupada por pieza aliada;
+  :Casilla no válida;
+  end split
+if (¿La casilla es válida?) then (Sí)
+:Volver marcador visible;
+else (No)
+endif
+repeat while (¿Terminó la iteración?) is (No) not (Sí)
+
+stop
+@enduml

@@ -1,17 +1,17 @@
 [gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://6smq645tgk1s"]
 
-[ext_resource type="Texture2D" uid="uid://c7dc21ky1gsc7" path="res://Resources/Meshes/Knight/Textures/white_knight_color.png" id="1_l4iwn"]
-[ext_resource type="Texture2D" uid="uid://uilv04vyuq7o" path="res://Resources/Meshes/Knight/Textures/knight_AO.png" id="2_s8j25"]
-[ext_resource type="Texture2D" uid="uid://k8f58r743mia" path="res://Resources/Meshes/Knight/Textures/knight_normal.png" id="3_1557w"]
-[ext_resource type="Texture2D" uid="uid://gkaxdfwgs21g" path="res://Resources/Meshes/Knight/Textures/knight_roughness.png" id="4_0y6po"]
+[ext_resource type="Texture2D" uid="uid://b6ttjjokpsy5i" path="res://Resources/Meshes/Queen/Textures/white_queen_color.png" id="1_5dml0"]
+[ext_resource type="Texture2D" uid="uid://byu2lk155vflb" path="res://Resources/Meshes/Queen/Textures/queen_AO.png" id="2_8d4cj"]
+[ext_resource type="Texture2D" uid="uid://cft2fqw1fje8t" path="res://Resources/Meshes/Queen/Textures/queen_normal.png" id="3_d133o"]
+[ext_resource type="Texture2D" uid="uid://dmm6wwwxvml00" path="res://Resources/Meshes/Queen/Textures/queen_roughtness.png" id="4_vdg3r"]
 
 [resource]
-albedo_texture = ExtResource("1_l4iwn")
-roughness_texture = ExtResource("4_0y6po")
+albedo_texture = ExtResource("1_5dml0")
+roughness_texture = ExtResource("4_vdg3r")
 normal_enabled = true
-normal_texture = ExtResource("3_1557w")
+normal_texture = ExtResource("3_d133o")
 ao_enabled = true
 ao_light_affect = 1.0
-ao_texture = ExtResource("2_s8j25")
+ao_texture = ExtResource("2_8d4cj")
 texture_filter = 0
 texture_repeat = false

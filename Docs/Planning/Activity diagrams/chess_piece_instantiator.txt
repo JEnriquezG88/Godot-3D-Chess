@@ -1,0 +1,30 @@
+@startuml
+
+title Inicializar\npiezas del tablero
+
+start
+
+:Inicio del instanciador;
+:Iterar filas;
+
+split
+:Blancas\n(Fila 1 y 2);
+split again
+:Negras\n(Fila 7 y 8);
+end split
+
+repeat
+  :Determinar el tipo de pieza según la posición de la iteración;
+  :Crear una instancia de la clase 'Piece';
+  :Inicializar pieza;
+  :Añadir a la pieza su tipo y color;
+  :posicionar pieza;
+  :Llamar al manejador de casillas\npara decirle a la casilla actual de la iteraciónnque estará ocupada por la nueva pieza;
+
+repeat while (¿Terminó la iteración?) is (No) not (Sí)
+
+:Llamar al manejador del nivel\npara solicitar el inicio\nde la partida;
+
+stop
+
+@enduml

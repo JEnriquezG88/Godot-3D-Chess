@@ -1,0 +1,17 @@
+@startuml
+title Cambio de turno
+
+start
+
+:Iniciar proceso de cambio de turno;
+:Desactivar interacción del manejador de casillas;
+:Decirle a la camara que empiece la rotación;
+repeat
+backward :Esperar;
+repeat while (¿La camara llegó a la nueva posición?) is (No) not (Sí)
+:Decirle a el manejador de casillas el color del turno actual;
+:Habilitar interacción del manejador de casillas;
+
+stop
+@enduml
+Ya
